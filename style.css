@@ -5,3 +5,18 @@ html {
 body {
   font-family: Tahoma, san-serif;
 }
+.little {
+  width: 100px;
+}
+#big {
+  width: 500px;
+}
+.part1 {
+  color: blue;
+}
+.part2 {
+  color: red;
+}
+.part3 {
+  color: purple;
+}
