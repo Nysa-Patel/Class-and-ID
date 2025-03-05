@@ -1,9 +1,23 @@
+@font-face {
+  font-family: myfirstFont;
+  src: url("Shine\ in\ Valentine.ttf");
+}
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 html {
   height: 100%;
   width: 100%;
 }
 body {
-  font-family: Tahoma, san-serif;
+  font-family: myfirstFont, san-serif;
 }
 .little {
   width: 100px;
@@ -13,6 +27,7 @@ body {
 }
 .part1 {
   color: blue;
+  font-family: "Open Sans";
 }
 .part2 {
   color: red;
